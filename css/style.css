@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 50%;
+  margin: 100px auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.block__title {
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.block__item {
+  margin-bottom: 30px;
+  border: 1px solid #6666d1;
+}
+.block__item-top {
+  font-size: 18px;
+  background-color: #6666d1;
+  color: #fff;
+  position: relative;
+}
+.block__item-title {
+  padding: 15px 0 15px 40px;
+  display: inline-block;
+}
+
+.block__item-text {
+  padding: 15px 20px 20px 40px;
+}
