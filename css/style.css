@@ -18,18 +18,20 @@
 .block__item {
   margin-bottom: 30px;
   border: 1px solid #6666d1;
+  border-radius: 15px;
 }
-.block__item-top {
+
+.block__item-title {
+  padding: 15px 0 15px 40px;
+  display: block;
   font-size: 18px;
   background-color: #6666d1;
   color: #fff;
-  position: relative;
+  border-radius: 14px;
 }
-.block__item-title {
-  padding: 15px 0 15px 40px;
-  display: inline-block;
+.block__hidden {
+  display: none;
 }
-
 .block__item-text {
   padding: 15px 20px 20px 40px;
 }
